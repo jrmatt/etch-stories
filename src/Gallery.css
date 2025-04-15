@@ -1,0 +1,19 @@
+.Keywords {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10; /* Add this line */
+}
+
+.Images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 3em;
+    justify-content: center;
+}

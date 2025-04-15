@@ -1,0 +1,35 @@
+.image-card {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .image-card img {
+    width: 500px;
+    height: 314px;
+    display: block;
+  }
+  
+  .overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    width: 500px;
+    height: 314px;
+    text-align: center;
+  }
+
+  .overlay-text {
+    padding: 16px;
+  }
+
+  .transcription {
+    font-style: italic;
+  }

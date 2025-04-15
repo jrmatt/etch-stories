@@ -1,0 +1,22 @@
+.Keyword {
+    padding: 6px 12px;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.1s ease;
+}
+
+.Keyword:hover {
+    color: #4e5d6b;
+}
+
+.Keyword.active {
+    background: #e1e1e1;
+    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.1),
+                inset -4px -4px 8px rgba(255, 255, 255, 0.765);
+    color: #111;
+}
+
+.KeywordButton:active {
+    transform: scale(0.97);
+}

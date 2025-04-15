@@ -1,0 +1,38 @@
+/* Image detail overlay style */
+.ImageDetailOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+ }
+
+/* Modal content style */
+.ImageDetailContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    max-width: 80%;
+    max-height: 80%;
+    text-align: center;
+}
+
+/* Enlarged image styling */
+.enlarged-image {
+    max-width: 75%;
+    height: auto;
+}
+
+/* Image details */
+.image-details {
+    font-size: 20px;
+    color: white;
+    text-align: left;
+}
