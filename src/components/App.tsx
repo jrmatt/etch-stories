@@ -1,6 +1,6 @@
 import Gallery from './Gallery'
-import './App.css'
-import commonStory from './data/common_story.json';
+import '../styles/App.css'
+import commonStory from '../data/common_story.json';
 
 
 type commonStory = {

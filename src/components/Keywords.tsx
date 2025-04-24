@@ -1,4 +1,4 @@
-import './Keywords.css';
+import '../styles/Keywords.css';
 
 interface KeywordProps {
     keyword: string;

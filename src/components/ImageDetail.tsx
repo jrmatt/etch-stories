@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import './ImageDetail.css'
+import '../styles/ImageDetail.css'
 
 interface ImageDetailProps {
     filename: string;

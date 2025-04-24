@@ -1,4 +1,4 @@
-import './ImageCard.css';
+import '../styles/ImageCard.css';
 import { useState } from 'react';
 import { ImageData } from './Gallery'
  

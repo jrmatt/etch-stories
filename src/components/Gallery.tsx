@@ -2,9 +2,9 @@ import { useState } from 'react';
 import ImageCard from './ImageCard';
 import Keywords from './Keywords';
 import ImageDetail from './ImageDetail';
-import './Gallery.css';
-import analysis from './data/analysis.json';
-import keywordList from './data/keywords.json';
+import '../styles/Gallery.css';
+import analysis from '../data/analysis.json';
+import keywordList from '../data/keywords.json';
 
 export type ImageData = {
     filename: string;
