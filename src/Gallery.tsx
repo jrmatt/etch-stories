@@ -40,7 +40,7 @@ function Gallery() {
     };
 
     return (
-        <div>
+        <div className="Gallery-Container">
             <div className="Keywords">
                 {displayKeywords.map((keyword) => (
                         <Keywords 

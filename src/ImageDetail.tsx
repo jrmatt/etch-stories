@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import './ImageDetail.css'
 
 interface ImageDetailProps {
@@ -10,6 +11,15 @@ interface ImageDetailProps {
 }
 
 function ImageDetail({ filename, drawings, transcription, onClose, paper, keywords }: ImageDetailProps ) {
+    
+    useEffect(() => {
+        document.body.classList.add('no-scroll');
+        return () => {
+            document.body.classList.remove('no-scroll');
+        };
+    }, []);
+
+    
     return (
         <div className="ImageDetailOverlay" onClick={onClose}>
             <div className="ImageDetailContent" onClick={(e) => e.stopPropagation()}>

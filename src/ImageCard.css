@@ -1,14 +1,20 @@
+
 .image-card {
-    position: relative;
-    display: inline-block;
-    margin: 10px;
-    transition: all 0.3s ease;
-    cursor: pointer;
-  }
-  
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.transcription {
+font-style: italic;
+}
+
+@media only screen and (min-width: 600px) {
   .image-card img {
-    width: 500px;
-    height: 314px;
+    width: 750px;
+    height: 471px;
     display: block;
   }
   
@@ -21,15 +27,20 @@
     left: 0;
     background: rgba(0, 0, 0, 0.8);
     color: white;
-    width: 500px;
-    height: 314px;
+    width: 750px;
+    height: 471px;
     text-align: center;
   }
 
   .overlay-text {
     padding: 16px;
   }
+}
 
-  .transcription {
-    font-style: italic;
+@media only screen and (max-width: 600px) {
+  .image-card img {
+    width: 300px;
+    height: 188px;
+    display: block;
   }
+}

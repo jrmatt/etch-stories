@@ -2,10 +2,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+/*   overflow-x: hidden; */  
+  padding: 0 .5rem;
 }
 
 .Header {
-
   text-align: center;
   background-color: white;
   cursor: pointer;
@@ -22,19 +23,20 @@
 .CommonStory {
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 1rem;
+  flex-wrap: wrap;
 }
 
-
-.CommonStoryText {
-  max-width: 1000px;
-  text-align: center;
+@media only screen and (max-width: 600px) {
+  .CommonStoryText {
+    text-align: center;
+    max-width: 80vw;
+  }
 }
 
-
-.Gallery {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+@media only screen and (min-width: 600px) {
+  .CommonStoryText {
+    text-align: center;
+    max-width: 60vw;
+  }
 }
