@@ -2,41 +2,5 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-/*   overflow-x: hidden; */  
   padding: 0 .5rem;
-}
-
-.Header {
-  text-align: center;
-  background-color: white;
-  cursor: pointer;
-}
-
-.Header h1 {
-  transition: opacity 0.2s ease;
-}
-
-.Header:hover h1 {
-  opacity: 0.8;
-}
-
-.CommonStory {
-  display: flex;
-  justify-content: center;
-  padding: 1rem;
-  flex-wrap: wrap;
-}
-
-@media only screen and (max-width: 600px) {
-  .CommonStoryText {
-    text-align: center;
-    max-width: 80vw;
-  }
-}
-
-@media only screen and (min-width: 600px) {
-  .CommonStoryText {
-    text-align: center;
-    max-width: 60vw;
-  }
 }

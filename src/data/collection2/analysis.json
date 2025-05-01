@@ -1,0 +1,46 @@
+[
+    {
+        "filename": "scan_3.jpeg",
+        "transcription": "HERE'S SOMETHING ELSE TO SCAN",
+        "drawings": "A simple doodle of a tree with a few round fruits or leaves.",
+        "paper": "Brown, coarse, textured paper with visible fibers.",
+        "keywords": [
+            "tree",
+            "scan",
+            "humor"
+        ]
+    },
+    {
+        "filename": "scan_2.jpeg",
+        "transcription": "Test!  \nTest.",
+        "drawings": "Wavy arrow line with dotted outline.",
+        "paper": "Rough, textured, thin.",
+        "keywords": [
+            "pathway",
+            "exploration",
+            "transition"
+        ]
+    },
+    {
+        "filename": "scan_1.jpeg",
+        "transcription": "ITS ANOTHER TEST",
+        "drawings": "There are no drawings or doodles in the image.",
+        "paper": "Textured, ridged, glossy.",
+        "keywords": [
+            "test",
+            "message",
+            "repetition"
+        ]
+    },
+    {
+        "filename": "scan_0.jpeg",
+        "transcription": "This is another test for the scanner",
+        "drawings": "There are no drawings or doodles.",
+        "paper": "Textured brown kraft paper.",
+        "keywords": [
+            "test",
+            "scanner",
+            "handwritten"
+        ]
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "filename": "scan_3.jpeg",
+        "transcription": "HERE'S SOMETHING ELSE TO SCAN",
+        "drawings": "A simple tree with a curvy trunk, rounded foliage, and small circular details.",
+        "paper": "Brown, textured, matte surface, punched holes.",
+        "keywords": [
+            "tree",
+            "scan",
+            "note"
+        ]
+    },
+    {
+        "filename": "scan_2.jpeg",
+        "transcription": "Test! Test.",
+        "drawings": "A wavy line with arrows and dots along its path.",
+        "paper": "Rough, textured.",
+        "keywords": [
+            "journey",
+            "exploration",
+            "pathway"
+        ]
+    },
+    {
+        "filename": "scan_1.jpeg",
+        "transcription": "ITS  \nANOTHER  \nTEST",
+        "drawings": "The image contains handwritten text: \"ITS ANOTHER TEST.\"",
+        "paper": "Glossy, textured, with vertical color bands.",
+        "keywords": [
+            "test",
+            "abstract",
+            "repetition"
+        ]
+    },
+    {
+        "filename": "scan_0.jpeg",
+        "transcription": "This is another  \ntest for the  \nscanner",
+        "drawings": "There are no drawings or doodles in the image.",
+        "paper": "Coarse, brown, textured, with white handwritten text and hole punches.",
+        "keywords": [
+            "test",
+            "scanner",
+            "handwritten"
+        ]
+    }
+]

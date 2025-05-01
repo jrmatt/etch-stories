@@ -1,34 +1,16 @@
-import Gallery from './Gallery'
-import '../styles/App.css'
-import commonStory from '../data/common_story.json';
+import { MenuProvider } from "./MenuContext";
+import Menu from "./CollectionMenu";
+import Gallery from "./Gallery";
 
-
-type commonStory = {
-  common_story: string;
-};
-
-
-function App() {
-  const story: commonStory = commonStory;
-
+const App = () => {
   return (
-    <div className="App">
-      <div 
-        className="Header"
-        onClick={() => window.location.reload()}
-      >
-        <h1>etchings</h1>
-      </div>
-      <div className="CommonStory">
-                <div className="CommonStoryText">
-                    <i>{story.common_story}</i>
-                </div>
-            </div>
-      <div className="Gallery">
+    <MenuProvider>
+      <div className="App">
+        <Menu />
         <Gallery />
       </div>
-    </div>
-  )
-}
+    </MenuProvider>
+  );
+};
 
 export default App;

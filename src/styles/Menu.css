@@ -1,0 +1,63 @@
+
+.menu-button-div {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    color: #111;
+    padding-left: 1em;
+}
+
+.menu-button, .collection-item {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-button.open {
+    color: lightgray;
+}
+
+.menu-button.open:hover {
+    color: lightgray;
+    text-decoration: underline;
+}
+
+.collections-options {
+    display: flex;
+    padding-left: 14px;
+    gap: 14px;
+}
+
+.collection-item {
+    cursor: pointer;
+}
+
+.collection-item:hover {
+    text-decoration: underline;
+}
+
+
+.menu-button:hover {
+    color: #4e5d6b;
+}
+
+.menu-button.active {
+    background: #e1e1e1;
+    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.1),
+                inset -4px -4px 8px rgba(255, 255, 255, 0.765);
+    color: #111;
+}
+
+@media only screen and (max-width: 600px) {
+    .menu-button, .collection-item {
+        font-size: 10px;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    .menu-button, .collection-item {
+        font-size: 16px;
+    }
+}

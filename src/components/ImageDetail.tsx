@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import '../styles/ImageDetail.css'
+import { useMenu } from './MenuContext';
 
 interface ImageDetailProps {
     filename: string;
@@ -11,7 +12,9 @@ interface ImageDetailProps {
 }
 
 function ImageDetail({ filename, drawings, transcription, onClose, paper, keywords }: ImageDetailProps ) {
-    
+    const { selectedCollection } = useMenu();
+
+
     useEffect(() => {
         document.body.classList.add('no-scroll');
         return () => {
@@ -29,7 +32,7 @@ function ImageDetail({ filename, drawings, transcription, onClose, paper, keywor
                     <p><strong>Paper: </strong><i>{paper}</i></p>
                     <div><strong>Keywords: </strong><i>{keywords.join(', ')}</i></div>
                 </div>
-                <img src={`/images/${filename}`} alt={filename}
+                <img src={`/images/${selectedCollection.name}/${filename}`} alt={filename}
                 className="enlarged-image" />
             </div>
         </div>

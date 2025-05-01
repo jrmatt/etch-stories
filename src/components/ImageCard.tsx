@@ -1,6 +1,8 @@
 import '../styles/ImageCard.css';
 import { useState } from 'react';
-import { ImageData } from './Gallery'
+import { ImageData } from './Gallery';
+import { useMenu } from './MenuContext';
+
  
 interface ImageCardProps {
     filename: string;
@@ -13,6 +15,7 @@ interface ImageCardProps {
 
 function ImageCard({ filename, drawings, transcription, paper, keywords, onClick }: ImageCardProps ) {
     const [hovered, setHovered] = useState(false);
+    const { selectedCollection } = useMenu();
 
     return (
         <div 
@@ -20,8 +23,8 @@ function ImageCard({ filename, drawings, transcription, paper, keywords, onClick
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
             onClick={() => onClick({filename, transcription, drawings, paper, keywords })}
-        >
-            <img src={`/images/${filename}`} alt={filename} />
+        >            
+            <img src={`/images/${selectedCollection.name}/${filename}`} alt={filename} />
             {hovered && <div className="overlay">
                 <div className="overlay-text">
                     <p className="transcription">"{transcription}"</p>
