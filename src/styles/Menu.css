@@ -12,6 +12,7 @@
     background-color: white;
     border: none;
     cursor: pointer;
+    color: #111;
 }
 
 .menu-button.open {
@@ -42,6 +43,10 @@
     color: #4e5d6b;
 }
 
+h4 {
+    color: #111 !important;
+}
+
 .menu-button.active {
     background: #e1e1e1;
     box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.1),
@@ -52,6 +57,7 @@
 @media only screen and (max-width: 600px) {
     .menu-button, .collection-item {
         font-size: 10px;
+        color: #111;
     }
 }
 
@@ -59,5 +65,6 @@
 @media only screen and (min-width: 600px) {
     .menu-button, .collection-item {
         font-size: 16px;
+        color: #111;
     }
 }
