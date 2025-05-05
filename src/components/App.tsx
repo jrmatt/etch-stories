@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Menu from "./CollectionMenu";
 import Gallery from "./Gallery";
 import Home from "./Home";
+import "../styles/index.css"
 
 
 const App = () => {

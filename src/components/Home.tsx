@@ -7,7 +7,7 @@ interface HomeProps {
   const Home: React.FC<HomeProps> = ({ onEnter }) => {
     return (
       <div className="home-container" onClick={onEnter}>
-        <img src="public/images/logo/etchings2.png" alt="logo" className-="logo"/>
+        <img src="/images/logo/etchings2.png" alt="logo" className="logo"/>
       </div>
     );
   };
