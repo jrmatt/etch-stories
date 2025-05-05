@@ -1,14 +1,8 @@
 [
     {
-        "name": "collection1",
-        "title": "scanner",
-        "common_story": "A group of friends decided to unleash their creativity with doodles and scanner tests, leaving playful trails and colorful tests behind. They seemed to share a knack for turning ordinary tasks into fun little adventures.",
-        "aspect_ratio": "2105:1327"
-    },
-    {
         "name": "collection2",
-        "title": "test collection",
-        "common_story": "A group of friends decided to have some fun testing out a scanner, doodling trees and drawing squiggly paths, while repeatedly jotting down playful notes about their scanning experiments.",
-        "aspect_ratio": "2105:1327"
+        "title": "THE GUT",
+        "common_story": "A group of people visited The GUT Archive, each leaving a story and a unique doodle to represent themselves. Some even chose to leave an object behind. Those featured here chose to share their contributions beyond the GUT.",
+        "aspect_ratio": "242:391"
     }
 ]

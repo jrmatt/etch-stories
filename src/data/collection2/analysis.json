@@ -1,46 +1,74 @@
 [
     {
-        "filename": "scan_3.jpeg",
-        "transcription": "HERE'S SOMETHING ELSE TO SCAN",
-        "drawings": "A simple doodle of a tree with a few round fruits or leaves.",
-        "paper": "Brown, coarse, textured paper with visible fibers.",
+        "filename": "Scan 7.png",
+        "transcription": "I implore you to, to be someone to others...to be someone to others that you've wanted but haven't had.",
+        "drawings": "Simple smiling faces, represented by :333  \n^_^.",
+        "paper": "Textured, slightly off-white, with printed and handwritten text.",
         "keywords": [
-            "tree",
-            "scan",
-            "humor"
-        ]
+            "connection",
+            "face",
+            "fun"
+        ],
+        "highlight": "0"
     },
     {
-        "filename": "scan_2.jpeg",
-        "transcription": "Test!  \nTest.",
-        "drawings": "Wavy arrow line with dotted outline.",
-        "paper": "Rough, textured, thin.",
+        "filename": "Scan 11.png",
+        "transcription": "So the object I brought in was this fake dollar bill with this person's face on it that's not a US President or any famous person. It's also kind of pink. I guess one kind of idea I had from Take one takeaway I had from this conversation was just how much happened in two hours. The time kind of flew by, but I feel like I changed somewhat as a person from this conversation. So I guess this bill is about three years old. It's in my wallet for that long. And I definitely changed so much from since when I first got this bill.",
+        "drawings": "A geometric, abstract doodle with vertical and horizontal lines intersecting, resembling a stylized face or symbol.",
+        "paper": "Lightly textured, off-white paper with blue and black print.",
         "keywords": [
-            "pathway",
-            "exploration",
-            "transition"
-        ]
+            "object",
+            "face",
+            "change"
+        ],
+        "highlight": "0"
     },
     {
-        "filename": "scan_1.jpeg",
-        "transcription": "ITS ANOTHER TEST",
-        "drawings": "There are no drawings or doodles in the image.",
-        "paper": "Textured, ridged, glossy.",
+        "filename": "Scan 10.png",
+        "transcription": "I'm just thinking about what makes any of us do anything at all, because I know for a very long time I've had a strong intrinsic motivation to do things with my body or do things with my mind, or create things, or love people and other beings. And I don't understand where it comes from or why certain people have different feelings about that, or different things that they want to do or maybe lack thereof. And it's all very confusing to think about why I even do anything at all. But I also can't imagine wanting to continue living without doing those things.",
+        "drawings": "A simple round face with oval eyes and two ears or antennae.",
+        "paper": "Textured, slightly creased.",
         "keywords": [
-            "test",
-            "message",
-            "repetition"
-        ]
+            "archive",
+            "anonymity",
+            "face"
+        ],
+        "highlight": "0"
     },
     {
-        "filename": "scan_0.jpeg",
-        "transcription": "This is another test for the scanner",
-        "drawings": "There are no drawings or doodles.",
-        "paper": "Textured brown kraft paper.",
+        "filename": "Scan 12.png",
+        "transcription": "But having experienced this, you know, I've never actually seen an organization try to gather people just to have honest discourse. Not in a political context, but just about anything. And I wouldn't call their methods scientific, at least based off of the experience I had here tonight. But you know what? I think this is one of those rare occasions that it doesn't necessarily have to be. I had a great time.",
+        "drawings": "An abstract shape resembling two overlapping leaves or wings.",
+        "paper": "The paper appears slightly creased with a matte finish.",
         "keywords": [
-            "test",
-            "scanner",
-            "handwritten"
-        ]
+            "conversation",
+            "honest",
+            "connection"
+        ],
+        "highlight": "0"
+    },
+    {
+        "filename": "Scan 8.png",
+        "transcription": "And I'm leaving behind a little block called Live, Laugh, Love. And it's the mentality that I go throughout life with, and I feel like that's so true and relevant to, like, this experience of, like, I had no idea what GUT was, and experiencing this was so much fun. And I met a ton of new people that I've never seen on campus before, and hearing their stories and their background, and I think I laughed a lot, and I got to learn more about the MIT community, and I'm really grateful.",
+        "drawings": "A scuba diver with bubbles and fish around.",
+        "paper": "The paper appears to be slightly off-white, with a textured surface showing pen markings.",
+        "keywords": [
+            "diver",
+            "object",
+            "fun"
+        ],
+        "highlight": "0"
+    },
+    {
+        "filename": "Scan 9.png",
+        "transcription": "I brought a nice little spoon, and I like spoons a lot. Spoons carry a lot of things. And conversation carries a lot of things too. And we all have the capacity to listen and to listen to others. And I liked exercising that tonight because I haven't done it in a while. Good luck.",
+        "drawings": "A stick figure with a circular head, two dots for eyes, a curved line for a mouth, and lines for arms and legs. Scattered squiggly lines around the figure.",
+        "paper": "Matte, textured.",
+        "keywords": [
+            "listen",
+            "conversation",
+            "spoon"
+        ],
+        "highlight": "0"
     }
 ]

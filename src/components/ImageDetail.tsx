@@ -27,13 +27,16 @@ function ImageDetail({ filename, drawings, transcription, onClose, paper, keywor
         <div className="ImageDetailOverlay" onClick={onClose}>
             <div className="ImageDetailContent" onClick={(e) => e.stopPropagation()}>
                 <div className="image-details">
-                    <p><strong>Transcription: </strong><i>{transcription}</i></p>
+                    <p><strong>Transcript: </strong><i>{transcription}</i></p>
                     <p><strong>Drawings: </strong><i>{drawings}</i></p>
                     <p><strong>Paper: </strong><i>{paper}</i></p>
                     <div><strong>Keywords: </strong><i>{keywords.join(', ')}</i></div>
                 </div>
-                <img src={`/images/${selectedCollection.name}/${filename}`} alt={filename}
-                className="enlarged-image" />
+                <img 
+                    src={`/images/${selectedCollection.name}/${filename}`} alt={filename}
+                    className="enlarged-image"
+                    onClick={onClose} 
+                />
             </div>
         </div>
     );

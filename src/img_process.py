@@ -10,12 +10,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Retrieve OpenAI API key from env variable
-api_key = os.getenv("OPENAI_API_KEY")
+api_key = ""
 client = OpenAI(api_key=api_key)
-
-# Check for API Key
-if api_key is None:
-    raise ValueError("OPENAI_API_KEY not found in environment variables. Please set it in your .env file.")
 
 # Encode an image
 def encode_image(image_path):
@@ -162,6 +158,7 @@ def process_images(image_list, collection_name):
             'drawings': drawings.output_text,
             'paper': paper.output_text,
             'keywords': parse_keywords(keywords.output_text),
+            'highlight': "0"
         })
 
     # Write results to json file

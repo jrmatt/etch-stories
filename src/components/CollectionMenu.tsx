@@ -23,7 +23,7 @@ export default function Menu() {
         onClick={() => setOpen(!open)}
         className={`menu-button ${open ? "open" : ""}`}
       >
-        <h4>view collections</h4>
+        <h4>collections</h4>
       </button>
 
       {open && (

@@ -27,7 +27,7 @@
 
     /* Enlarged image styling */
     .enlarged-image {
-        max-width: 90vw;
+        max-width: 50vw;
         height: auto;
     }
 
@@ -36,7 +36,7 @@
         font-size: 12px;
         color: white;
         text-align: left;
-        max-width: 90vw;
+        max-height: 90vh;
     }
 }
 
@@ -70,8 +70,8 @@
 
     /* Enlarged image styling */
     .enlarged-image {
-        max-width: 75%;
-        height: auto;
+        max-height: 80vh;
+        width: auto;
     }
 
     /* Image details */
