@@ -44,7 +44,9 @@ function Gallery() {
     useEffect(() => {
         loadGalleryData();
       }, [selectedCollection]);
-
+    
+      if (loading) {
+      }
 
     // Filter images based on the selected keyword
     const filteredImages = filter
