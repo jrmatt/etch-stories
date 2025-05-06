@@ -4,6 +4,8 @@
     display: flex;
     flex-direction: row;
     text-align: left;
+    width: 100%;
+    justify-content: start;
     color: #111;
     padding-left: 1em;
 }
@@ -12,15 +14,15 @@
     background-color: white;
     border: none;
     cursor: pointer;
-    color: #111;
-}
+/*     color: #111;
+ */}
 
 .menu-button.open {
-    color: lightgray;
+    color:  #a3aeb9;;
 }
 
 .menu-button.open:hover {
-    color: lightgray;
+    color:  #a3aeb9;;
     text-decoration: underline;
 }
 
@@ -43,9 +45,9 @@
     color: #4e5d6b;
 }
 
-h4 {
-    color: #111 !important;
-}
+/* h4 {
+    color: #111;
+} */
 
 .menu-button.active {
     background: #e1e1e1;
@@ -58,6 +60,10 @@ h4 {
     .menu-button, .collection-item {
         font-size: 10px;
         color: #111;
+    }
+
+    .h4 {
+        color: #111 !important;
     }
 }
 

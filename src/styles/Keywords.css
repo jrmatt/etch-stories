@@ -13,7 +13,7 @@
     }
     
     .Keyword.active {
-        background: #e1e1e1;
+        background: #dde0e4;
         box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.1),
                     inset -4px -4px 8px rgba(255, 255, 255, 0.765);
         color: #111;
@@ -39,7 +39,7 @@
     }
     
     .Keyword.active {
-        background: #e1e1e1;
+        background: #dde0e4;
         box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.1),
                     inset -4px -4px 8px rgba(255, 255, 255, 0.765);
         color: #111;

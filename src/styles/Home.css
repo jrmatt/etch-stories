@@ -1,8 +1,9 @@
 .home-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100vw;
+    width: 80vw;
     height: 100vh;
     cursor: pointer;
   }
@@ -11,9 +12,22 @@
     max-width: 80%;
     height: auto;
   }
+
+  .site-intro {
+    text-align: center;
+    font-size: 40px;
+  }
   
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 750px) {
     .logo {
       width: 100%;
+    }
+
+    .site-intro {
+      font-size: 20px;
+    }
+    
+    .home-container {
+      height: 100vh;
     }
   }

@@ -4,6 +4,7 @@ import Menu from "./CollectionMenu";
 import Gallery from "./Gallery";
 import Home from "./Home";
 import "../styles/index.css"
+import "../styles/App.css"
 
 
 const App = () => {
